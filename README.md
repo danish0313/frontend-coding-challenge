@@ -4,10 +4,17 @@ Hello there!
 
 Your task is to implement a new Stepper component
 based on [these specifications in Figma](https://www.figma.com/design/gvf4xjR6f9rvaj94BPFFyZ/Frontend-Coding-Challenge?node-id=0-1&t=tHGuIxWbpBVVsH5B-1).
+Make sure your component behaves as expected by
+creating tests for it.
 
 ## File structure
 The relevant files are these
 ```text
+__tests__/
+  components/
+    stepper/
+      stepper.test.tsx
+      -> Implement your tests here
 components/
   stepper/
     stepper.tsx  
@@ -36,6 +43,11 @@ npm run dev
 ```
 
 Check out the page on [localhost:3000](http://localhost:3000)
+
+To run the tests
+```bash
+npm run test
+```
 
 ## Getting started
 
